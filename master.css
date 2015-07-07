@@ -1,3 +1,7 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
 
 html {
   background: url(mushroomCover.jpg) no-repeat center center fixed;
@@ -10,6 +14,11 @@ html {
 body {
     color: #ffffff;
     text-align: center;
+}
+
+h1 {
+    padding-bottom: 12px;
+    border-bottom: 2px solid white;
 }
 
 h3 {
@@ -25,11 +34,7 @@ h3 {
     padding: 30px;
 }
 
-@media screen and (max-width:500px){
-    html, body {
-        margin: 0px;
-        padding: 0px;
-    }
+@media screen and (max-width:700px){
     .content {
         display: block;
         border-radius: 0px;
@@ -53,4 +58,21 @@ input[type="text"]{
 
 img {
     max-width: 50px;
+    padding-top: 10px;
+}
+
+#wrapper {
+	min-height:100%;
+}
+footer {
+	color:tomato;
+    padding: 10px 0px;
+    font-weight: 300;
+    font-family: sans-serif;
+    background-color: rgba(255,255,255,.7);
+    width: 100%;
+	position:absolute;
+	bottom:0;
+	left:0;
+    text-align: center;
 }
